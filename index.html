@@ -225,7 +225,7 @@ footer .wrap { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 1.5rem
     <div class="wrap about">
       <div class="prose">
         <h2>Sobre mí</h2>
-        <p>Lidero la tecnología de la Facultad de Odontología de la Universidad Nacional de Cuyo desde 2007, primero como Jefe del Departamento de Sistemas y desde 2014 como Director TIC. Ingresé en 1998 como contratado y construí ese camino desde adentro: conozco la organización desde el soporte técnico hasta la mesa de decisión.</p>
+        <p>Lidero la tecnología de la Facultad de Odontología de la Universidad Nacional de Cuyo desde 2007, primero como Jefe del Departamento de Sistemas y desde 2014 como Director de Informática y Comunicaciones. Ingresé en 1998 como contratado y construí ese camino desde adentro: conozco la organización desde el soporte técnico hasta la mesa de decisión.</p>
         <p>Hoy gestiono los servicios tecnológicos de la facultad (infraestructura, sistemas académicos y clínicos, seguridad de la información y servicios digitales) para una comunidad de alrededor de 1.000 estudiantes de pregrado, grado y posgrado, además de docentes, nodocentes y autoridades.</p>
         <p>Desde 1995 trabajo en informática educativa en la Dirección General de Escuelas de Mendoza. Esa trayectoria me da una mirada poco común: la tecnología en toda la cadena educativa.</p>
         <p>Participo en la gestión universitaria como miembro del Consejo Superior de la UNCuyo, soy cofundador de Comunidad Nodocente e integro la comisión directiva de la mutual del personal de la Universidad. Formo parte de la comunidad tecnológica de Mendoza (Underc0de, Mendoza Tech, Club Blockchain UCh, PoloTIC) y me apasionan los mercados de capitales y las inversiones.</p>
@@ -275,30 +275,39 @@ footer .wrap { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 1.5rem
 
       <article class="case">
         <h3>Reconstrucción del centro de datos de la Facultad de Odontología</h3>
-        <p class="meta">UNCuyo, 2025 a 2026</p>
+        <p class="meta">UNCuyo, octubre de 2025 a abril de 2026</p>
         <dl class="case-grid">
           <dt>Contexto</dt>
-          <dd>Un siniestro afectó el centro de datos que aloja los sistemas académicos, el campus virtual, la historia clínica y los servicios internos de la facultad.</dd>
+          <dd>Un siniestro dejó fuera de servicio el centro de datos que aloja los sistemas académicos, el campus virtual, la historia clínica y los servicios internos de la facultad, y contaminó el equipamiento con residuos corrosivos.</dd>
+          <dt>Crisis</dt>
+          <dd>Lideré la respuesta como responsable del incidente, con la comunicación hacia autoridades y comunidad centralizada en la Dirección. Mantuvimos la conectividad con un enlace satelital y VPN provisorios mientras se definía la solución de fondo, y controlamos el método de descontaminación para no agravar la corrosión.</dd>
           <dt>Recuperación</dt>
-          <dd>Tras recuperar y descontaminar el hardware, restauramos la información primero desde los backups y luego desde los discos de los propios servidores. No se registró pérdida de información.</dd>
+          <dd>Restauramos la información primero desde los backups y luego desde los discos de los propios servidores. Recuperamos más del 99&nbsp;% de los datos y, hasta hoy, no se reportaron pérdidas de información.</dd>
+          <dt>Decisión</dt>
+          <dd>Evaluamos cuatro propuestas. Las de tipo “micro data center” dejaban afuera la infraestructura del edificio y obligaban a una segunda licitación; elegimos la única llave en mano (obra eléctrica, canalización, fibra y racks), con un plazo de 45 a 50 días frente a 90 a 120 de las demás y financiación en cuotas fijas en pesos como cobertura cambiaria.</dd>
           <dt>Red troncal</dt>
-          <dd>Montamos la red troncal del edificio de Clínicas sobre fibra óptica de 10 Gb, entre sus 10 nodos de conexión y hacia el edificio de Gobierno. El cableado ahora corre por bandejas suspendidas instaladas para este fin; la última milla a oficinas y cátedras es UTP Cat 6 a 1 Gb.</dd>
-          <dt>Centro de datos</dt>
+          <dd>Fibra óptica de 10 Gb con 11 nodos nuevos: 10 en el edificio de Clínicas y 1 en el de Gobierno. El cableado ahora corre por bandejas suspendidas instaladas para este fin; la última milla a oficinas y cátedras es UTP Cat 6 a 1 Gb.</dd>
+          <dt>Centro de datos hoy</dt>
           <dd>
             <ul>
-              <li>Nuevos servidores con virtualización y almacenamiento redundante</li>
-              <li>Línea eléctrica independiente desde el tablero general del edificio</li>
+              <li>Sala de 30 m² con racks de 45U</li>
+              <li>Línea eléctrica independiente desde el tablero general del edificio y UPS</li>
               <li>Climatización redundante y sensores de temperatura y humedad</li>
-              <li>Videovigilancia interior y exterior y acceso con control biométrico</li>
+              <li>Control de acceso biométrico, con habilitación remota, y videovigilancia interior y exterior</li>
+              <li>Nuevos servidores con virtualización y almacenamiento redundante</li>
               <li>Monitoreo y alertas automatizadas</li>
             </ul>
           </dd>
           <dt>Resultado</dt>
-          <dd>Un centro de datos más robusto que el anterior al siniestro, y una red troncal ordenada donde antes los cables pasaban por donde se podía.</dd>
+          <dd>Del siniestro a la operación definitiva en el nuevo centro de datos, menos de seis meses. Un centro de datos más robusto que el anterior, y una red troncal ordenada donde antes los cables pasaban por donde se podía.</dd>
         </dl>
       </article>
 
       <div class="projects">
+        <div>
+          <h3>Software propio desde 2007</h3>
+          <p>Portal web y servidor de correo sobre software libre, y un Sistema Integral de la Facultad con módulos a medida: esterilización, economato, reservas de aulas y multimedia, ficha docente y pedidos de servicio.</p>
+        </div>
         <div>
           <h3>De COBOL a SIU Guaraní</h3>
           <p>En 2008 reemplazamos un sistema académico monolítico en COBOL por SIU Guaraní, y lo sostuvimos a lo largo de múltiples versiones y actualizaciones.</p>
@@ -309,7 +318,11 @@ footer .wrap { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 1.5rem
         </div>
         <div>
           <h3>Historia clínica digital</h3>
-          <p>Lideré el proyecto de historia clínica digital para las clínicas de la facultad.</p>
+          <p>Implementación de la historia clínica digital en las clínicas de la facultad y su modernización reciente, junto con stock y turneros, sobre nuevos servidores y thin clients.</p>
+        </div>
+        <div>
+          <h3>Microsoft 365 y SharePoint</h3>
+          <p>Migración de cuentas y buzones institucionales a Microsoft 365 y gestión documental centralizada en SharePoint, con validación estricta de identidad.</p>
         </div>
         <div>
           <h3>IA generativa con reglas claras</h3>
@@ -326,15 +339,16 @@ footer .wrap { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 1.5rem
         <li><span class="year">1995</span><p>Empiezo en informática educativa en la Dirección General de Escuelas de Mendoza, a cargo de laboratorios de escuelas primarias.</p></li>
         <li><span class="year">1998</span><p>Ingreso a la Facultad de Odontología de la UNCuyo como administrador de servidores y soporte técnico.</p></li>
         <li><span class="year">2002</span><p>Analista Universitario de Sistemas (Universidad Champagnat). Planta permanente en la facultad como programador y administrador de sistemas.</p></li>
-        <li><span class="year">2007</span><p>Jefe del Departamento de Sistemas de la Facultad de Odontología.</p></li>
+        <li><span class="year">2007</span><p>Jefe del Departamento de Sistemas de la Facultad de Odontología. Portal web, servidor de correo y Sistema Integral de la Facultad.</p></li>
         <li><span class="year">2008</span><p>Migración del sistema académico en COBOL a SIU Guaraní.</p></li>
         <li><span class="year">2010</span><p>Licenciado en Sistemas de Información. Campus virtual Moodle. Socio gerente de DataByte Argentina.</p></li>
         <li><span class="year">2012</span><p>Coordinador seccional del proyecto Aula Digital Móvil en la DGE.</p></li>
-        <li><span class="year">2014</span><p>Director TIC de la Facultad de Odontología.</p></li>
+        <li><span class="year">2014</span><p>Director de Informática y Comunicaciones de la Facultad de Odontología.</p></li>
         <li><span class="year">2018</span><p>Máster en Tecnología y Negocios (Universidad Champagnat).</p></li>
         <li><span class="year">2020</span><p>Modernización del campus virtual sobre contenedores para la virtualidad.</p></li>
         <li><span class="year">2024</span><p>Docente de Bases de Datos en la Universidad Champagnat. Diplomado en Gestión y Liderazgo (BUAP).</p></li>
-        <li class="now"><span class="year">2026</span><p>Nuevo centro de datos y red troncal de fibra. Adopción institucional de IA. Docente de Arquitectura de Sistemas.</p></li>
+        <li><span class="year">2025</span><p>Responsable del incidente y de la recuperación tras el siniestro en el centro de datos. Referente tecnológico en el IES 9-026.</p></li>
+        <li class="now"><span class="year">2026</span><p>Nuevo centro de datos y red troncal de fibra en operación. Adopción institucional de IA. Docente de Arquitectura de Sistemas.</p></li>
       </ol>
     </div>
   </section>
